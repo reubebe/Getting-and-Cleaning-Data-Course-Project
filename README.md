@@ -1,11 +1,11 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-This repository contains the following files:
+This repository contains the following :
 
-README.md, this file, which provides an overview of the data set and how it was created.
-tidy_data.txt, which contains the data set.
-CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
-run_analysis.R, the R script that was used to create the data set (see the Creating the data set section below)
+A README.md,that briefly descibes the data set.
+tidy_data.txt, resulting data set.
+CodeBook.md, a code book, describing the contents of the data set and cleaning process used to generate the data).
+run_analysis.R, the R script for the creation of data set
 
 
 ## Experimental design
