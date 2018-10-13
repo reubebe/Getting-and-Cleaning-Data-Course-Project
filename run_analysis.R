@@ -19,14 +19,14 @@ library(dplyr)
 ##############################################################################
 
 # read training data
-trainingSubjects <- read.table(file.path(Users/addison/Desktop/UCIHARDataset/train, "train", "subject_train.txt"))
-trainingValues <- read.table(file.path(Users/addison/Desktop/UCIHARDataset/train, "train", "X_train.txt"))
-trainingActivity <- read.table(file.path(Users/addison/Desktop/UCIHARDataset/train, "train", "y_train.txt"))
+trainingSubjects <- read.table(Users/addison/Desktop/UCIHARDataset/train, "train", "subject_train.txt"))
+trainingValues <- read.table(Users/addison/Desktop/UCIHARDataset/train, "train", "X_train.txt"))
+trainingActivity <- read.table(Users/addison/Desktop/UCIHARDataset/train, "train", "y_train.txt"))
 
 # read test data
-testSubjects <- read.table(file.path(Users/addison/Desktop/UCIHARDataset/test, "test", "subject_test.txt"))
-testValues <- read.table(file.path(Users/addison/Desktop/UCIHARDataset/test, "test", "X_test.txt"))
-testActivity <- read.table(file.path(Users/addison/Desktop/UCIHARDataset/test, "test", "y_test.txt"))
+testSubjects <- read.table(Users/addison/Desktop/UCIHARDataset/test, "test", "subject_test.txt"))
+testValues <- read.table(Users/addison/Desktop/UCIHARDataset/test, "test", "X_test.txt"))
+testActivity <- read.table(Users/addison/Desktop/UCIHARDataset/test, "test", "y_test.txt"))
 
 # read features, don't convert text labels to factors
 features <- read.table(file.path(Users/addison/Desktop/UCIHARDataset, "features.txt"), as.is = TRUE)
@@ -34,7 +34,7 @@ features <- read.table(file.path(Users/addison/Desktop/UCIHARDataset, "features.
   ##       e.g. fBodyAcc-bandsEnergy()-1,8
 
 # read activity labels
-activities <- read.table(file.path(Users/addison/Desktop/UCIHARDataset, "activity_labels.txt"))
+activities <- read.table(Users/addison/Desktop/UCIHARDataset, "activity_labels.txt"))
 colnames(activities) <- c("activityId", "activityLabel")
 
 
